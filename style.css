@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#root{
+    max-width: 900px;
+    margin: auto;
+}
+#header{
+    background-color: #e0f3fc;
+}
+img{
+    width: 100%;
+}
+.dark_blue{
+   background-color: #203252;
+}
+.h-250{
+    height: 250px;
+}
+.nrk{
+    background-color:#fffbd6 ; 
+    margin-top: -80px;
+}
+.carousel-indicators {
+    bottom: -20px;
+}
+.carousel-indicators [data-bs-target]{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+.px20{
+    font-size: 20px;
+}
+.px14{
+    font-size: 15px;
+}
+hr:not([size]) {
+    height: 3px;
+}
+hr{
+    height: 3px;
+    background-color: #fff;
+}
+.px16{
+    font-size: 15px;
+}
+img{
+    image-rendering: -webkit-optimize-contrast;
+}
+.middle2{
+    margin: 0 20px;
+    background-color: #d2dddb;
+}
+.golden{
+    color: #cda367;
+}
+.golden:hover{
+    color: #cda367;
+}
+.pointer{
+    cursor: pointer;
+}
+.modal_read{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: (-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 50px;
+    border-radius: 20px;
+    z-index: 9999;
+}
+.none{
+    display: none;
+}
+.overlay_show {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #333333;
+    opacity: 0.9;
+    z-index: 999;
+}
+.blue_light{
+    color: #0a98cc;
+    font-size: 50px;
+}
